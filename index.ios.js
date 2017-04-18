@@ -2,11 +2,13 @@
 
 // import a library to helo create a Component
 import React from 'react';
-import { Text, AppRegistry } from 'react-native';
+import { AppRegistry } from 'react-native';
+import Header from './src/components/header';
+
 
 // create a component
 const App = () => (
-    <Text>Some Text</Text>
+    <Header />
 );
 
 // render the component to the device
